@@ -10,7 +10,7 @@ Consumir API De Marvel
 Instalacion:
 
 ```bash
-$ docker build https://github.com/pooljpv84/marvel#main -t marvel:0.1
+$ docker build https://github.com/pooljpv84/marvel.git#main -t marvel:0.1
 ```
 
 Ver imagen:
