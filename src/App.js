@@ -14,7 +14,7 @@ function App() {
 
 
 useEffect(()=>{
-axios.get('https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=7a0e5f430855bc2eb3ca4066eaded58f&hash=5c997bea38bbef7657f45dfde5e29deb').then(res=>{
+axios.get('https://gateway.marvel.com:443/v1/public/characters?ts=2&apikey=7a0e5f430855bc2eb3ca4066eaded58f&hash=5c997bea38bbef7657f45dfde5e29deb').then(res=>{
 setPersonajes(res.data.data.results)
 console.log(res.data)
 }).catch(error=> console.log(error))
