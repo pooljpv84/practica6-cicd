@@ -23,7 +23,8 @@ console.log(res.data)
 console.log(personajes);
 return (
 <div className='App'>
-  <h1>CD en código</h1>
+  <h1>CI/CD con github y Azure </h1>
+  <h2>cambio #1 </h2>
   <h3>Por:</h3> 
   <br/>
   <h4>Paul Velasco - Jhony Llano</h4>
